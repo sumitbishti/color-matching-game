@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="game-container">
+        <div class="high-score-container">
+          <p>Lowest Moves Possible:&nbsp;<span id="lowestScore">0</span></p>
+          <p class="high-score-label">
+            Lowest Moves:&nbsp;<span id="highScore">0</span>
+          </p>
+        </div>
+
+        <div class="grid-container">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+
+        <div class="score-container">
+          <button id="restartBtn">Restart Game</button>
+          <p class="moves">Your Moves:&nbsp;<span id="score">0</span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>

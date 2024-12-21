@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+}
+#restartBtn {
+  height: 50px;
+  margin-left: 0.5rem;
+}
+.moves {
+  height: 50px;
+  display: flex;
+  margin-right: 2rem;
+  align-items: center;
+}
+.score-container {
+  height: 70px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.high-score-container {
+  display: flex;
+  justify-content: space-between;
+}
+.high-score-label {
+  margin-right: 1rem;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.pink {
+  background-color: pink;
+}
+.grey {
+  background-color: grey;
+}
